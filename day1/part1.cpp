@@ -14,8 +14,7 @@ int main() {
     for (int i = 0; i < input.size(); i++) {
         bool found = std::binary_search(input.begin() + i + 1, input.end(), 2020 - input[i]);
         if (found) {
-            int result = input[i] * (2020 - input[i]);
-            std::cout<<"result: "<<result<<"\n";
+            return (input[i] * (2020 - input[i]));
         }
     }
     return 0;
