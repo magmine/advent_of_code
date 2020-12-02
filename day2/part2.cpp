@@ -52,6 +52,7 @@ int main() {
             counter++;
         }
     }
+    myIn.close();
 
     std::cout<<counter<<"\n";
     return 0;
