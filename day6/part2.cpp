@@ -22,7 +22,7 @@ int main() {
             for (auto val : questions) {
                 if (val == num_pers) count++;
             }
-            std::fill(questions.begin(), questions.end(), 0);
+            questions.fill(0);
             num_pers = 0;
         }
     }
